@@ -55,16 +55,31 @@ text-align: center;
     font-weight: bold;
  }
  .about{
+    border: 2px solid red; border-radius: 25px;width: fit-content; background-color: firebrick;
     color: azure;
+    margin-left: 47%;
+    text-align: center;
  }
- .work{
+ .work{ border: 2px solid red; border-radius: 25px;width: fit-content; background-color: firebrick;
     color: azure;
+    margin-left: 29%;
+    text-align: center;
+    transform-style:flat
  }
  .resume{
     color: azure;
+    text-align: center;
  }
  .Video{
     color: azure;
- }.contact{
-    color: azure;
+    text-align: center;
+    transform-style:flat
  }
+ .contact{
+    color: azure;
+    text-align: center;
+    transform-style:flat
+ }
+.table{
+    margin-left: 45%;
+}
