@@ -4,7 +4,9 @@
   <meta lang="en">
   <meta charset="UTF-8">
   <title>HTML Checkpoint</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <!-- Navbar -->
   <nav>
@@ -19,49 +21,49 @@
   </nav>
 
   <!-- About Section -->
-  <section id="about">
+  <section class="about" id="about">
     <h1>About Me</h1>
     <p>Nothing Special</p>
-  </section>
+  </section> <br>
 
   <!-- Work Section -->
-  <section id="work">
+  <section class="work" id="work">
     <h1>My Work</h1>
     <p>I have worked on several projects in different industries, such as finance, healthcare, and e-commerce.</p>
   </section>
 
   <!-- Resume Section -->
-  <section id="resume">
+  <section class="resume" id="resume">
     <h1>My Resume</h1>
-    <table border="2">
+    <table class="table" border="2">
       <tr>
         <th>Language</th>
         <th>Skills</th>
       </tr>
       <tr>
-        <td>FR,DE,EN,AR</td>
+        <td>FR, DE, EN, AR</td>
         <td>A lot</td>       
       </tr>
     </table>
-    <p>You can download my resume <a href="#Video">here</a>.</p>
+    <p>You can download my resume <a href="#">here</a>.</p>
   </section>
 
   <!-- Video Section -->
-  <section id="Video">
+  <section class="Video" id="Video">
     <h1>My favorite Song</h1>
-  <iframe 
-     width="720" 
-     height="420" 
-     src="https://www.youtube.com/embed/A_l6PkYJE8I?list=RDdgUGzcDXm4Y" title="Samara - Je Remercie La Vie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
-  ></iframe>
-  <aside>
-    <h1>My Work</h1>
-    <p>I have worked on several projects in different industries, such as finance, healthcare, and e-commerce.</p>
-    </aside>
+    <iframe 
+      width="720" 
+      height="420" 
+      src="https://www.youtube.com/embed/A_l6PkYJE8I?list=RDdgUGzcDXm4Y" 
+      title="Samara - Je Remercie La Vie" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in- picture; web-share" 
+      allowfullscreen
+    ></iframe>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact">
+  <section class="contact" id="contact">
     <h1>Contact Me</h1>
     <form action="#" method="post">
       <label>Name:</label>
@@ -73,6 +75,7 @@
       <input type="submit" value="Submit">
     </form>
   </section>
+  
   <!-- Footer -->
   <footer>
     <p>&copy; 2023 GoMycode Full Stack web development bootscamp</p>
