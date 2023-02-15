@@ -8,7 +8,12 @@ body {
   
 }
 
-.navbar {
+div {
+  border: white;
+  border-width: 1px;
+  border-style: dashed;
+}
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,18 +23,18 @@ body {
   
 }
 
-.navbar img {
+.nav img {
   width: 150px;
 }
 
-.navbar ul {
+.nav ul {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.navbar ul li a {
+.nav ul li a {
   color: white;
   text-decoration: none;
   margin-right: 20px;
@@ -38,7 +43,7 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-.navbar ul li a:hover {
+.nav ul li a:hover {
   background-color: #333;
   color: #fff;
   cursor: pointer;
@@ -77,6 +82,7 @@ body {
 
 .about, .work, .resume, .Video, .contact {
   padding: 20px;
+  text-align: center;
 }
 
 .about h1, .work h1, .resume h1, .Video h1, .contact h1 {
