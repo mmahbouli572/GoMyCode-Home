@@ -4,7 +4,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: bisque;
+  background-color: slategray;
+  
 }
 
 .navbar {
@@ -13,6 +14,8 @@ body {
   align-items: center;
   background-size: auto;
   padding: 20px;
+  background-image: url(bckgrnd.jpg);
+  
 }
 
 .navbar img {
@@ -27,7 +30,7 @@ body {
 }
 
 .navbar ul li a {
-  color: #333;
+  color: white;
   text-decoration: none;
   margin-right: 20px;
   padding: 10px 20px;
@@ -61,7 +64,7 @@ body {
 }
 
 .header {
-  background-image: url(header.jpg);
+  background-image: url(bckgrnd.jpg);
   background-size: cover;
 }
 
@@ -81,8 +84,8 @@ body {
 }
 
 .resume table {
-  width: 100%;
-  margin: 20px 0;
+  width: 80%;
+  margin: 10px;
 }
 
 .resume th, .resume td {
@@ -93,4 +96,6 @@ body {
 footer {
   text-align: center;
   padding: 20px;
+  background-color: #333;
+  color: azure;
 }
